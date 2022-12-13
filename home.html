@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item">Home</div>
+      <div class="menu-item">Products and Services</div>
+      <div class="menu-item"><a href="contactus.html">Contact Us</a></div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome To Eve Schultz Fine Arts</h2>
+        <p>
+          Eve Schultz grew up in the thumb of Michigan on her family's farm and
+          about an hour from Michigan's Lake Huron's shores. Days outside
+          whether by the lake or in the arena with her horses inspired her to
+          start sketching.
+        </p>
+        <p>
+          With Eve's father introducing the way into the world of art for her,
+          she is 100% self taught. She has won several awards for her art at the
+          Tuscola County Fair and hopes to enter more art shows in the future.
+        </p>
+        <p>
+          Eve's love for the traditional ranching and cowboying is strong.
+          Waking up before the crack of dawn, bringing in yearling calves from
+          the fields, breaking in colts before dusk. Eve hopes to show this
+          authentic life style as it is - real and alive.
+        </p>
+      </div>
+      <div class="sidebar-two">
+      <img
+        id="logo"
+        src="https://cdn.glitch.global/84060aa9-7ef7-40f5-92cd-afa20f7961bf/29a09d0b-d453-4288-b3bf-9ee43ded1465.Eve%20Schultz%20(1).png?v=1669652731721"
+      />
+      <div>
+        <ul>
+          <li>Pen and Ink</li>
+          <li>Charcoal Sketchings</li>
+          <li>Watercolor Paintings</li>
+        </ul>
+      </div>
+      
+      
+      </div>
+    </div>
+    <div id="specialoffers" class="call-outs-container">
+        <div class="call-out">
+          <h4>Join the mailing list</h4>
+          <p>
+            Subscribe to the email list and be the first to recieve Eve
+            Schultz news, special events, latest happenings or next 
+            sketch and print release updates.
+            <button onclick="document.location='default.asp'">Learn More</button>
+          </p>
+        </div>
+          <div class="call-out">
+            <h4>Christmas specials</h4>
+            <p>
+              The holidays are already here and with Christmas
+              soon approahing Eve is offering custom orders for a short
+              period of time. Click the link to put in a custom order
+              before they're filled. 
+              <button onclick="document.location='default.asp'">Learn More</button>
+            </p>
+          </div>
+        </div>
+    
+    <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers
+      </button>
+    </div>
+    
+    <script>
+    function hideAds() {
+      var x = document.getElementById("specialoffers");
+      var y = document.getElementById("hidebutton");
+      x.style.display = "none";
+      y.style.display = "none";
+    }
+    </script>
+  </body>
+</html>
